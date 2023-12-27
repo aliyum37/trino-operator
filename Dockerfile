@@ -2,7 +2,6 @@
 FROM golang:1.21 as builder
 ARG TARGETOS
 ARG TARGETARCH
-ARG GOPROXY=http://repo.zncdata.net/repository/go
 
 WORKDIR /workspace
 # Copy the Go Modules manifests
